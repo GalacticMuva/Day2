@@ -1,0 +1,21 @@
+# PokéViewer 🌟
+
+## Project Description
+PokéViewer is an interactive web application designed to demonstrate dynamic data fetching, manipulation, and UI styling using a public API. Users can search any Pokémon by name or ID and instantly view its essential details.
+
+## Features
+- **Intuitive Search:** Find any Pokémon using its name or numerical ID.
+- **Rich Data Display:** Shows Pokémon name, official sprite image, elemental type(s), height, and weight.
+- **Dynamic Styling:** The display card's background color adjusts automatically to match the Pokémon's primary elemental type (e.g., green/Grass, red/Fire).
+- **Unit Conversions:** Height and weight are presented in both Metric (meters, kilograms) and Imperial (inches, pounds) units for comprehensive understanding.
+- **Clean User Experience:** Includes a "Clear" button to easily reset the search and an animated fade-in for the results card.
+
+## Technical Requirements Met
+- Consumes the PokéAPI using `fetch()` with no authentication required.
+- Reads user input and dynamically updates the Document Object Model (DOM).
+- Handles nested JSON data to extract specific information like image URLs and multiple types.
+- Implements responsive design principles using vanilla HTML, CSS, and JavaScript.
+- Deployed on Netlify for public accessibility. https://pokeviewer1.netlify.app/
+
+## Author
+Alessandra F.
