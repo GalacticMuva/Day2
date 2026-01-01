@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokéViewer Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the PokéViewer!</h1>
+        
+        <div class="form-group">
+            <input type="text" id="pokemonInput" placeholder="Enter Name or ID (e.g., pikachu)">
+            <div class="button-group">
+                <button id="searchBtn">Search</button>
+                <button id="clearBtn">Clear</button>
+            </div>
+        </div>
+
+        <div id="pokeCard" class="hidden">
+            <h2 id="pokeName"></h2>
+            <div class="image-container">
+                <img id="pokeImage" src="" alt="Pokemon Sprite">
+            </div>
+            
+            <div class="stats">
+                <p><strong>Type:</strong> <span id="pokeType"></span></p>
+                <p><strong>Height:</strong> <span id="pokeHeight"></span></p>
+                <p><strong>Weight:</strong> <span id="pokeWeight"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="poke.js"></script>
+
+</body>
+</html>
